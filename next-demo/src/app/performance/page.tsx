@@ -1,5 +1,12 @@
-import React from "react";
+import performanceImage from "@/../public/performance.jpg";
+import HeroImage from "@/components/heroImage";
 
 export default function PerformancePage() {
-  return <div>PerformancePage</div>;
+  return (
+    <HeroImage
+      img={performanceImage}
+      alt="Performance"
+      title="Great Performance"
+    />
+  );
 }

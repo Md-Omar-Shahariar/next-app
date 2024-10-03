@@ -1,5 +1,6 @@
-import React from "react";
+import scaleImage from "@/../public/scale.jpg";
+import HeroImage from "@/components/heroImage";
 
 export default function ScalePage() {
-  return <div>ScalePage</div>;
+  return <HeroImage img={scaleImage} alt="Scale" title="large Scale" />;
 }
